@@ -2,6 +2,12 @@
 
 # LAB | Basic CRUD with Drones
 
+##Remaining for me
+- limiter le form à des valeurs positives pour propellers et maxSpeed
+- watch hbs updates in nodemon
+- comprendre comment mettre un paramètre dans un redirect
+- 
+
 <br><br>
 
 ## Introduction
