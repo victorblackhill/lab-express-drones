@@ -1,1 +1,26 @@
 <h2>Update the drone</h2>
+
+<form action="/drones/{{retrieved._id}}/edit" method="post" >
+
+
+  <div>
+    <label for="name">Name</label>
+    <input type="text" name="name" value={{retrieved.name}}/>
+  </div>
+
+  <div>
+    <label for="speed">Propellers</label>
+    <input type="number" name="propellers" value= "{{retrieved.propellers}}" />
+  </div>
+
+  <div>
+    <label for="maxSpeed">maxSpeed</label>
+    <input type="number" name="maxSpeed" value="{{retrieved.maxSpeed}}" />
+  </div>
+  <div>
+    <button>Update {{retrieved.name}} </button>
+  </div>
+
+</form>
+
+{{#if updated }} <span>Update successful!</span> {{/if}}
